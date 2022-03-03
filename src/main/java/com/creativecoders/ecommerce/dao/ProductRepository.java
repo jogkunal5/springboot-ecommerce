@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.creativecoders.ecommerce.entity.Product;
 
 // Product => entity, Long => primary key
-@CrossOrigin("http://localhost:8082")
 public interface ProductRepository extends JpaRepository<Product, Long>{
 
 	/*
