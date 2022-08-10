@@ -4,6 +4,7 @@ public class PaymentInfo {
 
 	private int amount;
 	private String currency;
+	private String receiptEmail;
 
 	public int getAmount() {
 		return amount;
@@ -21,4 +22,11 @@ public class PaymentInfo {
 		this.currency = currency;
 	}
 
+	public String getReceiptEmail() {
+		return receiptEmail;
+	}
+
+	public void setReceiptEmail(String receiptEmail) {
+		this.receiptEmail = receiptEmail;
+	}
 }
